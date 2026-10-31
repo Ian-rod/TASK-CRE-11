@@ -1,3 +1,5 @@
+#The WFS client set up
+
 import logging
 import requests
 from app.config import settings
