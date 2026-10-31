@@ -1,0 +1,19 @@
+
+{
+  "source_feature_id": "brw2026_vector.1002",
+  "zone_id": "1002",
+  "land_value": "400",
+  "valuation_date": "2026-01-01",
+  "district": "Spandau",
+  "land_use": "W - Wohngebiet",
+  "gfz": "0.7",
+  "contribution_status": null,
+  "source_reference_url": null,
+  "anwert": null,
+  "verfahrensart": null,
+  "geometry": {
+    "type": "MultiPolygon",
+    "crs": "EPSG:25832",
+    "coordinates": "<processed geometry coordinates>"
+  }
+}

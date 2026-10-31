@@ -1,5 +1,4 @@
 # TASK-CRE-11 | Ingest BORIS Berlin Standard Land Value Zones (FIS-Broker WFS)
-## Changes
 - I used `https://gdi.berlin.de/services/wfs/brw2026` instead of `https://gdi.berlin.de/services/wfs/boris`. Since the URL endpoint provided did not work and I did some research to find the new URL for boris
 
 ## How to run
@@ -12,3 +11,6 @@
 ### Confirming results
 1. Connect to the database using the username `iris_user` and password `iris_password` using a suitable client and use the host as `localhost` and port as `5433`
 2. check the `berlin_land_value_zones` table for rows of data
+
+## Further Documentation
+- further documentation can be found at  `/submission` folder
