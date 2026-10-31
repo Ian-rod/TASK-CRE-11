@@ -94,9 +94,7 @@ def map_feature(feature: dict) -> dict:
         "source_reference_url": clean_string(
             properties.get("lumnum")
         ),
-        "anwert": parse_decimal(
-            properties.get("anwert"), "anwert"
-        ),
+        "anwert": clean_string(properties.get("anwert")),
         "verfahrensart": clean_string(
             properties.get("verfahrensart")
         ),
