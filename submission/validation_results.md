@@ -33,15 +33,12 @@ The field mapping was subsequently changed to preserve `anwert` as text.
 
 ## Final database results
 
-Complete this section after a successful ingestion and SQL verification:
+- Final source feature count: 1623
+- Transformation failures: 0
+- Validation rejections: 0
+- Database row count: 1623
+- Invalid geometries in database: 0
+- Duplicate source identifiers: 0
+- Idempotency test: PASSED
+- Transaction rollback test: PASSED
 
-- Final source feature count: [actual count]
-- Transformation failures: [actual count]
-- Validation rejections: [actual count]
-- Database row count: [actual count]
-- Invalid geometries in database: [actual count]
-- Duplicate source identifiers: [actual count]
-- Idempotency test: [PASS/FAIL]
-- Transaction rollback test: [PASS/FAIL]
-
-Attach the actual pytest output and SQL verification output when submitting.

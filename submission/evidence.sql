@@ -23,7 +23,7 @@ SELECT
 FROM iris_staging.berlin_land_value_zones
 GROUP BY ST_GeometryType(geom), ST_SRID(geom);
 
--- 6. Check invalid geometries
+-- 6. Check invalid geometries count
 SELECT COUNT(*) AS invalid_geometries
 FROM iris_staging.berlin_land_value_zones
 WHERE NOT ST_IsValid(geom);

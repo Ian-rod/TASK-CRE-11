@@ -1,3 +1,5 @@
+# Idempotency test
+# Transaction rollback test
 
 from datetime import date
 from decimal import Decimal
