@@ -12,5 +12,5 @@
 1. Connect to the database using the username `iris_user` and password `iris_password` using a suitable client and use the host as `localhost` and port as `5433`
 2. check the `berlin_land_value_zones` table for rows of data
 
-## Further Documentation
+## Further Documentation and submission documents
 - further documentation can be found at  `/submission` folder
