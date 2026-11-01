@@ -6,7 +6,7 @@
 1. Ensure you are on the root folder of the application and run `docker compose up -d` .This will create a container named `iris-local-postgis`
 2. run `docker ps` to ensure the container is up and running
 ### Python setup 
-1. run `pip install requirements.txt`. This installs all required python dependencies
+1. run `pip install -r requirements.txt`. This installs all required python packages
 2. run `python -m app.main` to run the main application
 ### Confirming results
 1. Connect to the database using the username `iris_user` and password `iris_password` using a suitable client and use the host as `localhost` and port as `5433`
