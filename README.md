@@ -3,7 +3,7 @@
 
 ## How to run
 ### Docker Database setup
-1. Ensure you are on the root folder of the application and run `docker compose up -d` .This will create a container named 'iris-local-postgis'
+1. Ensure you are on the root folder of the application and run `docker compose up -d` .This will create a container named `iris-local-postgis`
 2. run `docker ps` to ensure the container is up and running
 ### Python setup 
 1. run `pip install requirements.txt`. This installs all required python dependencies
