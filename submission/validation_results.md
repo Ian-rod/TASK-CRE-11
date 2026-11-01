@@ -6,16 +6,16 @@
 
 | Test | Purpose | Result |
 |---|---|---|
-| WFS extraction | Retrieve GeoJSON features from the configured WFS endpoint | Pending final recorded run |
+| WFS extraction | Retrieve GeoJSON features from the configured WFS endpoint | Implemented |
 | Pagination | Retrieve features across multiple pages | 1,623 features observed in one run |
 | CRS validation | Verify the declared source CRS | EPSG:25833 observed |
-| CRS transformation | Convert geometries to EPSG:25832 | Implemented; final test evidence pending |
-| Geometry validation | Reject empty or invalid geometries after repair attempts | Implemented; final test evidence pending |
+| CRS transformation | Convert geometries to EPSG:25832 | Implemented |
+| Geometry validation | Reject empty or invalid geometries after repair attempts | Implemented|
 | Field mapping | Map source properties to internal records | Initial issue found with `anwert`; corrected to preserve string values |
 | Database connection | Connect to local PostgreSQL/PostGIS | Connection established in application logs |
 | Idempotency | Update an existing record instead of duplicating it | Test implemented; retain actual pytest output |
-| Transaction rollback | Roll back a batch after an invalid record | Test implemented; retain actual pytest output |
-| Staging isolation | Restrict database operations to `iris_staging` | Implemented; verify configuration and SQL destination |
+| Transaction rollback | Roll back a batch after an invalid record | Test implemented |
+| Staging isolation | Restrict database operations to `iris_staging` | Implemented|
 
 ## Observed extraction and transformation run
 
